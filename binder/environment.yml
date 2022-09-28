@@ -1,0 +1,24 @@
+# from name: plasmabio-template-r
+
+name: M1MEG-UE1-TP6-R
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - jupyterlab=2
+  - nbresuse
+  - nodejs
+  - libgomp
+  - r-irkernel
+  - r-base>=3.6
+  - r-tidyverse 
+  - r-Matrix
+  - r-lattice
+  - r-fdrtool
+  - r-rpart
+  - r-RSQLite
+  - r-ggplot2
