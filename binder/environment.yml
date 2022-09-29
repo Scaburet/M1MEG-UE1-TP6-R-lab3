@@ -1,6 +1,6 @@
 # from name: plasmabio-template-r
 
-name: M1MEG-UE1-TP6-R
+name: M1MEG-UE1-TP6-R-lab3
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest prioriy
