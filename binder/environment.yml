@@ -22,3 +22,5 @@ dependencies:
   - r-rpart
   - r-RSQLite
   - r-ggplot2
+  - r-kernsmooth
+  - r-gplots
