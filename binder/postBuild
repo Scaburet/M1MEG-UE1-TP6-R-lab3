@@ -1,7 +1,7 @@
-jupyter labextension install \
-  jupyterlab-topbar-extension \
-  jupyterlab-system-monitor \
-  jupyterlab-topbar-text
+#jupyter labextension install \
+#  jupyterlab-topbar-extension \
+#  jupyterlab-system-monitor \
+#  jupyterlab-topbar-text
 
 # Install R package
 # if not available as conda package
