@@ -9,13 +9,33 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - jupyterlab=3
-  - nbresuse
+ # Jupyter dependencies
+  - jupyterhub>=1.5,<2
+  - jupyterlab>=3.2,<4
+  - jupyter-resource-usage
+  - jupyterlab-topbar
+  - jupyterlab-topbar-text
+  - jupyterlab-system-monitor
   - nodejs
+  - nbresuse
   - libgomp
+  - pip
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  - jupyter-archive
+  
+  # R environment
   - r-irkernel
-  - r-base>=4.1.0
-  - r-tidyverse 
+  - r-base>=4
+  - r-tidyverse
+  # JupyterLab Variable inspector
+  # https://github.com/lckr/jupyterlab-variableInspector
+  - r-repr
+  - pip:
+    - lckr-jupyterlab-variableinspector
+  - nbresuse
+  - libgomp
+  # R packages
   - r-Matrix
   - r-lattice
   - r-fdrtool
